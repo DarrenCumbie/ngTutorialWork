@@ -1,11 +1,27 @@
-<
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>I had to</title>
+  <title>For Darren</title>
+  <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
-  Hello World! err Hello Git!
+<body ng-app="darrenApp">
+
+<ng-view></ng-view>
+
+<!-- libs -->
+<script src="components/underscore/underscore.js"></script>
+<script src="components/angular/angular.js"></script>
+<script src="components/angular-route/angular-route.js"></script>
+
+<!-- app files -->
+<script src="app.js"></script>
+<script src="common/mainController.js"></script>
+
+<!-- posts feature -->
+<script src="posts/posts.js"></script>
+<script src="posts/postsController.js"></script>
+<script src="posts/postsService.js"></script>
+
 </body>
 </html>
